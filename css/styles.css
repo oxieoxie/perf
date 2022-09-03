@@ -1,0 +1,152 @@
+/* Container section */
+.container {
+  padding: 7% 15%;
+  background-color: hsl(30, 38%, 92%);
+}
+
+/* perfume image */
+.perfume-image {
+  position: relative;
+  right: -9%;
+  width: 60%;
+}
+
+/* perfume discription */
+.perfume-description {
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+  right: 10%;
+  width: 40%;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+/* image section */
+img {
+  width: 70%;
+}
+
+.main-image {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Heading sectio */
+.heading {
+  padding-top: 7%;
+  padding-left: 2%;
+}
+
+.big-heading {
+  font-family: Fraunces;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  bottom: 2%;
+}
+
+.paragraph {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.body {
+  position: relative;
+  bottom: 1%;
+}
+
+/* Amount section */
+.new-amount {
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+  width: 150px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.old-amount {
+  padding-top: 8%;
+  text-decoration: line-through;
+}
+
+#price {
+  position: relative;
+  bottom: 5% top: 5%;
+}
+
+/* Button section */
+.button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  width: 80%;
+  height: 10%;
+  font-family: "Montserrat";
+  position: absolute;
+  top: 80%;
+}
+
+.button:hover {
+  background-color: #044A42;
+  color: white;
+}
+
+.fa-cart-arrow-down {
+  padding-right: 2px;
+}
+
+/* Attribution section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .perfume-image {
+    width: 100%;
+  }
+
+  .main-image {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .perfume-description {
+    display: block;
+    width: 66%;
+    position: relative;
+    left: 12%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .new-price {
+    width: 50%;
+    padding-right: 80px;
+  }
+
+  .old-price {
+    width: 50%;
+    padding-left: 15px;
+  }
+
+  .button {
+    position: static;
+    padding-bottom: 20px;
+  }
+
+}
